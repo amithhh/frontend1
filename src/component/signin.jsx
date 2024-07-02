@@ -9,7 +9,7 @@ function Sign ()
         const[email,setEmail]=useState('');
         const[pass1,setPass1]=useState('');
         const[pass2,setPass2]=useState('');
-        const[error,setError]=useState('Signed in');
+        const[error,setError]=useState('');
         function handleChange1(e){
             setPass1(e.target.value)
 
